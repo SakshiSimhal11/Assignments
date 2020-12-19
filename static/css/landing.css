@@ -1,0 +1,130 @@
+div.full_height{
+    height: calc(100vh - 65px);
+    background-color: #06090f;
+    display: flex;
+    padding: 0 10%;
+}
+
+div.center{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+h4.landinghead{
+    color: #fff;
+    font-size: 60px;
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-style: normal;
+    text-align: center;
+    font-weight: 600;
+    font-size: 72px;
+   margin-top: 40px;
+
+}
+span.software{
+  background: -webkit-linear-gradient( rgba(247, 203, 200, 1),rgb(161, 98, 190));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h4.landinghead1{
+    color: #fff;
+    font-size: 60px;
+    font-family: "GT Walsheim Pro", sans-serif;
+    font-style: normal;
+    padding-top: 1.2rem;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+span.coding{
+    background: -webkit-linear-gradient( rgba(0, 170, 255, 1),rgba(235, 192, 255, 1));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+
+p.para{
+    color:rgb(168, 168, 168);
+    font-family: "Mulish-reg", sans-serif;
+    font-size:0.95rem;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.6;
+    word-spacing: 5px;
+    
+}
+
+div.buttons{
+    width:50%;
+    justify-content: center;
+    flex-direction: row;
+    padding-left: 180px;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+
+.button1 {
+    background-color:rgba(0, 120, 212, 1); 
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  
+  }
+
+  .button2 {
+    background-color: transparent;
+    
+    border: 1px solid rgba(0, 120, 212, 1);
+    border-radius: 4px;
+    color: white;
+    padding: 15px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+ img.LandingPageIllustration{
+   
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom:0;
+    display:block;
+}
+div.LandingPage{
+   
+    width:175px;
+    height:175px;
+    position:relative;
+    justify-content: center;
+    
+}
+
+@media screen and (max-width: 1100px) {
+    div.full_height div.right{
+        display: none;
+    }
+    div.full_height{
+        padding: 0 3%;
+    }
+    div.full_height div.left{
+        width: 100%;
+        align-items: center;
+    }
+}

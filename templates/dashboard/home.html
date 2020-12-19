@@ -1,3 +1,28 @@
 {% extends "base/base.html" %}
+{% load static %}
+
+{% block extrahead %}
+
+<link rel="stylesheet" href="{% static 'css/landing.css' %}">
+{% endblock extrahead %}
 {% block content %}
-{% endblock %}
+<div class="full_height">
+    <div class="center">
+        <h4 class="landinghead">A free<span class="software"> software</span></h4>
+        <h4 class="landinghead1">for <span class="coding">coding</span> assessment </h4>
+        <p class="para">Free and collaborative tool to help students and teachers to<br>access acoding skills efficiently.</p>
+    
+<div class="buttons">
+    <button class="button1">Sign Up for free</button>
+    <button class="button2">Try our online IDE </button>
+</div>
+    </div>
+    
+ <!--<div class ="LandingPage">
+        <img src="{% static 'Illustrations\LandingPageIllustration.svg' %}" alt="landing" class="LandingPageIllustration">
+
+</div>
+-->
+     
+</div>
+{% endblock content %}
